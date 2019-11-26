@@ -5,8 +5,7 @@ import App from "./components/App";
 import * as serviceWorker from "./serviceWorker";
 import { createStore } from "redux";
 import { Provider } from "react-redux";
-import { reducer } from "./reducers";
-
+import reducer from "./reducers";
 // storeの作成
 // 全てのstateがstoreに集約
 const store = createStore(reducer);
